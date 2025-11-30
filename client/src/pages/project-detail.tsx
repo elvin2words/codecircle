@@ -3,7 +3,9 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import { ChevronLeft, ExternalLink, Github } from "lucide-react";
-import { projects } from "@shared/projects";
+// import { projects } from "@shared/projects";
+import { insertContactSchema, type InsertContact } from "../../../shared/schema";
+import { projects } from "../../../shared/projects";
 
 export default function ProjectDetail() {
   const [, params] = useRoute("/project/:id");
