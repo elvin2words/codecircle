@@ -2,7 +2,7 @@ import type { Project } from "./schema";
 
 export const projects: Project[] = [ 
   {
-    id: "1",
+    id: "1", 
     title: "CodeBlue",
     description: "Modern corporate website with 9 color themes, responsive design, and portfolio showcase",
     fullDescription: "CodeBlue is a comprehensive corporate website solution featuring a dynamic theme system that allows users to personalize their experience with 9 distinct color schemes. Built with modern web technologies, it provides a fully responsive design that adapts seamlessly across all devices.",
